@@ -1,0 +1,1 @@
+# nic-bahmniconfig-bahmni-standard
