@@ -29,14 +29,10 @@
             "additionalPatientInformation": {
                 "title": "Additional Patient Information",
                 "attributes": [
-                    "distanceFromCenter",
-                    "isUrban",
-                    "cluster",
-                    "RationCard",
-                    "familyIncome",
-                    "debt",
-                    "cluster",
-                    "email"
+                    "NHIS Number",
+                    "Is NHIS Active",
+                    "Claim Code",
+                    "Is NHIS primary contact point"
                 ]
             },
             "hidden": {
