@@ -45,6 +45,9 @@
                 "landHolding": 2
             }
         },
+        "mandatoryPersonAttributes": [
+            "Caste"
+       ],
         "hideFormName": true,
         "addressHierarchy": {
             "showAddressFieldsTopDown": false,
