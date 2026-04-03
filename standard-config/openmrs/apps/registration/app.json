@@ -73,7 +73,11 @@
             {
                 "translationKey": "REGISTRATION_PRINT_LABEL",
                 "templateUrl": "/bahmni_config/openmrs/apps/registration/supplementalPaperLayout/print.html",
-                "shortcutKey": "r"
+                "shortcutKey": "r",
+                "prices": {
+                    "OPD Ticket": [30, 50],
+                    "ER Ticket": [50, 100]
+                }
             }
         ],
         "conceptSetUI": {
