@@ -98,7 +98,7 @@
         ],
         "conceptSetUI": {
             "REGISTRATION FEES": {
-                "required": true,
+                "required": false,
                 "label": "Fee"
             },
             "Department Sent To": {
@@ -123,15 +123,23 @@
         },
         "patientSearch": {
             "customAttributes": {
-                "label": "Phone Number",
-                "placeholder": "Phone Number",
-                "fields": ["phoneNumber","NHIS Number"]
+                "label": "Phone/NHIS Number",
+                "placeholder": "Phone/NHIS Number",
+                "fields": ["phoneNumber", "NHIS Number"]
             }
         },
         "addressHierarchy": {
             "showAddressFieldsTopDown": false,
             "strictAutocompleteFromLevel": "postalCode"
         },
+        "patientSearchResults": {
+			"personAttributes":{
+                "fields": [ "Contact Number", "NHIS Number"]
+            },
+            "address": {
+                "fields": ["city_village", "address1"]
+            }	 
+        },  
         "enableNepaliCalendar": true,
         "displayNepaliDates": true
     }
